@@ -1,0 +1,178 @@
+/*.jumbotron {
+	background-image: url( ../images/homeBackground.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 900px;
+	margin-bottom: 0px;
+	width: 100%;
+}
+*/
+body {
+  background: white url(../images/homeBackground.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 900px;
+  width: 100%;
+  font-size: 100%;
+}
+
+.container{
+	background: rgba(0,0,0,.6);
+	height: 400px;
+	width:100%;
+    top:255px;
+    position: absolute;
+    z-index: 0;
+}
+
+#badge{
+	position: absolute;
+	margin-left: 100px;
+}
+
+#menuRight {
+  position: absolute;
+  right: 20px;
+  top: 25%;
+  margin-top: -2.5em;
+}
+
+#menuRight li{
+	width: 200px;
+	height: 200px;
+	margin:1px;
+}
+
+#toolsLogo{
+  display: block;
+}
+
+#screwDriver{
+   max-width: 90px;
+   max-height: 90px;
+}
+
+#toolsLogo:hover {
+	 -webkit-transform: rotate(360deg);
+  transform: rotate(360deg); 
+   -webkit-transition: all 0.8s;
+     -moz-transition: all 0.8s;
+       -o-transition: all 0.8s;
+      -ms-transition: all 0.8s;
+          transition: all 0.8s; 
+}
+
+
+
+#inspirationLogo{
+  display: block;
+	max-width: 80px;
+	max-height: 80px;
+}
+
+#lightBulb{
+  max-width: 85px;
+  max-height: 85px;
+}
+
+#inpirationP{
+  display: none;
+}
+
+#inspirationLogo:hover {
+/*	width: 110px;
+	height: 110px;*/
+   -webkit-transform: rotate(360deg);
+  transform: rotate(360deg); 
+   -webkit-transition: all 0.8s;
+     -moz-transition: all 0.8s;
+       -o-transition: all 0.8s;
+      -ms-transition: all 0.8s;
+          transition: all 0.8s; 
+}
+#inspirationLogo:hover #inspirationP{
+display : block;
+}
+
+#menuLeft {
+  position: absolute;
+  Left: 20px;
+  top: 25%;
+  margin-top: -2.5em;
+}
+
+#menuLeft li{
+	width: 200px;
+	height: 200px;
+	margin:1px;
+}
+
+#paintLogo {
+	max-width: 90px;
+	max-height: 90px;
+	transform: rotate(30deg);
+	-webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+#paintLogo:hover {
+	width: 110px;
+	height: 110px;
+  -webkit-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#designLogo {
+	max-width: 90px;
+	max-height: 90px;
+	transform: rotate(-30deg);
+	-webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+#designLogo:hover {
+	width: 110px;
+	height: 110px;
+	transform: none;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.bottom{
+  background: rgba(0,0,0,.6);
+  height: 420px;
+  width:100%;
+    top:1000px;
+    position: absolute;
+    z-index: 0;
+}
+
+.about{
+  padding: 20px;
+  color:white;
+  font-size: 2.5em;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+footer {
+  color: white;
+  text-align: center; 
+  font-size: 2em;
+  padding: 10px;
+  border-top: 1px solid; 
+}
+

@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'WalkDaWalkOne';
+  src: url(../fonts/WalkDaWalkOne.ttf);
+}
+
+@font-face {
+  font-family: 'MARSNEVENEKSK';
+  src: url(../fonts/MARSNEVENEKSK.otf);
+}
+
+body {
+  background-image: url("../images/drafting_paper.jpg");
+}
+
+.navbar-collapse.collapse {
+        text-align: center; /* Set this */
+        display: block;
+        height: auto;
+        padding-bottom: 0;
+        overflow: visible;
+}
+
+.navbar .navbar-inverse .navbar-fixed-top{
+	background: rgba(0,0,0,.6);
+	display: inline-block;
+    float: none;
+    margin: 0;
+}
+
+.homeIcon{
+	max-width: 20px;
+	max-height: 20px;
+}
+
+#carousel-example-generic .item img {
+
+  height: 2000px;
+
+}
+
+.carousel-caption p {
+
+  display: none;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+
+  #carousel-example-generic .item img {
+
+  height: 384px;
+
+  }
+  
+}
+
+@media only screen and (min-width: 992px) {
+
+  #carousel-example-generic .item img {
+
+  height: 496px;
+
+  }
+
+  .carousel-caption p {
+
+  display: block;
+  }
+  
+}
+
+@media only screen and (min-width: 1200px) {
+
+  #carousel-example-generic .item img {
+
+  height: 600px;
+
+  }
+
+  .carousel-caption p {
+
+  display: block;
+  }
+  
+}

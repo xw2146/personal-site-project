@@ -1,0 +1,51 @@
+.navbar-collapse.collapse {
+        text-align: center; /* Set this */
+        display: block;
+        height: auto;
+        padding-bottom: 0;
+        overflow: visible;
+}
+
+.navbar .navbar-inverse .navbar-fixed-top{
+	background: rgba(0,0,0,.6);
+	display: inline-block;
+    float: none;
+    margin: 0;
+}
+
+.homeIcon{
+	max-width: 20px;
+	max-height: 20px;
+}
+
+.container{
+  top:100px;
+  position: absolute;
+  margin-left: 50px;
+}
+
+.inspirationPics {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+ 
+.transition {
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#feed{
+  height:200px;
+}
+
+footer {
+  color: black;
+  text-align: center; 
+  font-size: 1em;
+  padding: 10px;
+  border-top: 1px solid; 
+}

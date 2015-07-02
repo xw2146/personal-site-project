@@ -1,0 +1,115 @@
+html{
+  width: 100%;
+}
+
+.homeIcon{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.container{
+	top:80px;
+	margin-left:80px;
+	position: absolute;
+}
+
+
+footer {
+  color: black;
+  text-align: center; 
+  font-size: 1em;
+  padding: 10px;
+  border-top: 1px solid; 
+}
+
+.pic1{
+  background-image: url('../images/timeline/pic1.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  height: 800px;
+  color: white;
+  font-size: 1.5em;
+}
+
+.pic2{
+  background-image: url('../images/timeline/pic2.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 800px;
+  color: white;
+  font-size: 1.5em;
+}
+
+.firstrow{
+	margin-left:80px;
+	margin-right: 80px;
+}
+
+.pic3{
+  margin-top: 50px;
+  margin-right: 80px;	
+  background-image: url('../images/timeline/pic3.jpg');
+  background-repeat: no-repeat;
+  overflow: hidden;s
+  background-size: contain;
+  height: 800px;
+  color: white;
+  font-size: 1.5em;
+}
+
+.pic4{
+  background-image: url('../images/timeline/pic4.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 800px;
+  color: white;
+  font-size: 1.5em;
+}
+
+.pic5{
+  background-image: url('../images/timeline/pic6.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 800px;
+  color: white;
+  font-size: 1.5em;
+}
+
+.pic6{
+  background-image: url('../images/timeline/pic5.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 800px;
+  color: white;
+  font-size: 1.5em;
+}
+
+.pic7{
+  background-image: url('../images/timeline/pic7.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 800px;
+  color: white;
+  font-size: 1.5em;
+  margin-top: 50px;
+}
+
+.pic9{
+  background-image: url('../images/timeline/pic9.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 800px;
+  color: white;
+  font-size: 1.5em;
+}
+
+.pic10{
+  background-image: url('../images/timeline/pic10.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 800px;
+  color: white;
+  font-size: 1.5em;
+}
+
