@@ -25,5 +25,15 @@ footer {
   border-top: 1px solid; 
 }
 
+.carousel-control {
+  top: 38%;
+  border: 0;
+}
 
+.carousel-control.left {
+  background: transparent;
+}
 
+.carousel-control.right {
+  background: transparent;
+}
